@@ -1,0 +1,1321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: forum;
+}
+.forum-regular {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sat {
+  height: 4.9rem;
+  width: 100%;
+  color: #46572a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background: white;
+}
+
+.mwvane {
+  width: 2.1rem;
+  height: 2.1rem;
+}
+.first {
+  padding: 1.25rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem;
+}
+.aforfirst {
+  padding: 1.25rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Meditopia {
+  font-size: 1.25rem;
+}
+.lists {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+.user {
+  fill: #6c7856;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem;
+  gap: 1rem;
+}
+.bag {
+  fill: #6c7856;
+}
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+li {
+  font-size: 1.125rem;
+}
+footer {
+  background-color: #e9ebca;
+  display: flex;
+  height: 27.3125rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #e9ebca;
+  display: flex;
+  height: 50%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: start;
+}
+.meditopia2 {
+  color: #46572a;
+  font-size: 5.75rem;
+  font-weight: 100;
+}
+.number {
+  text-decoration: none;
+  color: #46572a;
+  font-size: 1.125rem;
+}
+.site {
+  color: #46572a;
+  font-size: 1.125rem;
+}
+
+.ifno {
+  display: flex;
+  flex-direction: column;
+}
+svg text {
+  fill: #fff;
+  font-size: 3.125rem;
+}
+a {
+  cursor: pointer;
+}
+.login {
+  color: #6c7856;
+}
+.wix {
+  color: #6c7856;
+}
+.listsforpolicy li {
+  color: #6c7856;
+  text-decoration: underline;
+}
+.listsforpolicy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 3.5rem;
+}
+.forwix {
+  text-decoration: underline;
+}
+.surat {
+  padding-top: 4rem;
+}
+.hero {
+  width: 100%;
+  height: 35.625rem;
+  position: relative;
+}
+.forhero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem;
+  z-index: 2;
+}
+.Savor {
+  font-size: 6.5625rem;
+  color: #46572a;
+  padding-top: 4rem;
+}
+.Welcome {
+  font-size: 1.125rem;
+  color: #46572a;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.explore {
+  width: 9.625rem;
+  height: 3.125rem;
+  border: solid 1px #46572a;
+  border-radius: 10rem;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.explore:hover {
+  background-color: #e6ff81;
+}
+.exploretext {
+  color: #46572a;
+  font-size: 1rem;
+}
+.imagecont {
+  position: relative;
+}
+.text-overlay {
+  position: absolute;
+  top: 90%;
+  right: 80%;
+  color: white;
+  font-size: 1.25rem;
+}
+.anim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%px;
+  height: 2.5rem;
+  gap: 1.3rem;
+  background-color: #e6ff81;
+  flex-wrap: wrap;
+}
+.svgforanim {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+.fresh {
+  color: #46572a;
+  font-size: 1.4rem;
+}
+.nuggets {
+  background-image: url(https://static.wixstatic.com/media/88aac0_ae4202bce1ea4f039cfc58bafa2dbf2c~mv2.png/v1/fill/w_980,h_640,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/88aac0_ae4202bce1ea4f039cfc58bafa2dbf2c~mv2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40rem;
+}
+a {
+  text-decoration: none;
+  color: #46572a;
+}
+.las {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+  margin-bottom: 10rem;
+}
+.log {
+  color: #46572a;
+  font-size: 4.875rem;
+  padding-bottom: 4rem;
+}
+input {
+  width: 41.25rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+.forsubmit {
+  background-color: #46572a;
+  color: white;
+  width: 14rem;
+  height: 2rem;
+}
+.now {
+  text-decoration: underline;
+}
+.yet {
+  margin-left: 30rem;
+}
+.forsighn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+.secforpolicy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divforp {
+  width: 37.8rem;
+  height: 12.75rem;
+}
+.secforpolicy h1 {
+  font-size: 6.56rem;
+  color: #46572a;
+}
+.secforpolicy p {
+  color: #46572a;
+  font-size: 1.1rem;
+}
+.up {
+  color: #46572a;
+  font-size: 4.875rem;
+  padding-bottom: 4rem;
+}
+.formenu {
+  width: 100%;
+  height: 56rem;
+  padding: 1.25rem;
+}
+.delights {
+  font-size: 2rem;
+  color: #46572a;
+  padding-bottom: 3rem;
+}
+hr {
+  width: 116.6em;
+}
+.mezze {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  font-size: 1.5rem;
+  color: #46572a;
+}
+.homeforlog {
+  margin-left: 50rem;
+}
+.dishes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.pformenu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1.3rem;
+}
+.green {
+  color: #46572a;
+}
+.lineformenu {
+  margin-top: 5.7rem;
+}
+.tagine {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  font-size: 1.5rem;
+  color: #46572a;
+}
+.sweet {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  font-size: 1.5rem;
+  color: #46572a;
+}
+.vegetables {
+  margin-right: 5rem;
+}
+.leaves {
+  margin-right: 5rem;
+}
+.baba {
+  margin-right: 7rem;
+}
+.tender {
+  margin-right: 4rem;
+}
+.rice {
+  margin-right: 10rem;
+}
+.soaked {
+  margin-right: 10.5rem;
+}
+.story {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  background-color: #e9ebca;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.forstory {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.picture {
+  width: 50%;
+  height: 100%;
+}
+.picture img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.aboutstory {
+  font-size: 4.9rem;
+  color: #46572a;
+}
+.our {
+  font-size: 1.25rem;
+  color: #46572a;
+}
+.at {
+  color: #46572a;
+  font-size: 1.0625rem;
+  width: 28.4rem;
+  height: 7.9rem;
+}
+.buttonforstory {
+  font-size: 1rem;
+  width: 9.625rem;
+  height: 3.125rem;
+  border-radius: 50px;
+  background-color: #e9ebca;
+  border: 1px solid;
+  cursor: pointer;
+  color: #46572a;
+  transition: 0.5s;
+}
+.buttonforstory:hover {
+  background-color: #e6ff81;
+}
+.signature {
+  width: 100%;
+  height: 38.25rem;
+  background-color: #e6ff81;
+  display: flex;
+  justify-content: space-around;
+}
+.forsignature {
+  background-color: #e6ff81;
+}
+.ourdishes {
+  color: #46572a;
+  font-size: 4.9375rem;
+  padding: 5rem;
+}
+.hfordishes {
+  font-size: 2.25rem;
+  color: #46572a;
+  height: 2.9rem;
+  width: 20.3rem;
+}
+.pfordishes {
+  color: #46572a;
+  font-size: 1.18rem;
+  width: 20.3rem;
+  height: 1.54rem;
+}
+.getin {
+  width: 100%;
+  height: 57.68rem;
+  display: flex;
+  justify-content: center;
+}
+.forgetin {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.inputforgetin {
+  height: 54rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 4rem;
+}
+.line-textarea {
+  width: 30.5rem;
+  height: 2.6rem;
+}
+.inputforemail {
+  width: 30.5rem;
+  height: 2.6rem;
+}
+.gapfordishes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.inputforgetin input {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+}
+textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.inputname {
+  width: 232px;
+  height: 41px;
+}
+.flexforinput {
+  display: flex;
+  flex-direction: row;
+}
+.flexinput {
+  display: flex;
+}
+.flexinput div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.picforgetin {
+  padding-top: 3rem;
+}
+.buttonforget {
+  height: 2.68rem;
+  border-radius: 50px;
+  background-color: #e6ff81;
+  border: 1px solid black;
+  width: 30.5rem;
+  height: 2.6rem;
+}
+.buttonforget:hover {
+  background-color: #46572a;
+  color: white;
+  transition: 0.5s;
+}
+.heforget {
+  font-size: 4.93rem;
+  color: #46572a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heforreach {
+  font-size: 1.2rem;
+  color: #46572a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discover {
+  width: 100%;
+  height: 64.25rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.formediterraneandelights {
+  color: #46572a;
+  font-size: 4.9375rem;
+}
+.divforMediterraneanDelights {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.meditopiawelcomes {
+  color: #46572a;
+  font-size: 1.1rem;
+  height: 7.8rem;
+  width: 28.4rem;
+}
+.ourstory {
+  font-size: 1.5rem;
+  color: #46572a;
+}
+.blueandyellow {
+  height: 968px;
+  width: 790px;
+}
+.secformission {
+  width: 100%;
+  height: 32.75rem;
+  background-color: #e9ebca;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.divformission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+.h1formission {
+  font-size: 3.375rem;
+  color: #46572a;
+  margin-bottom: 4rem;
+}
+.firstdivformission {
+  font-size: 1.2rem;
+  color: #46572a;
+  height: 7.9rem;
+  width: 27.5rem;
+}
+.seconddivformission {
+  font-size: 1.2rem;
+  color: #46572a;
+  height: 7.9rem;
+  width: 27.5rem;
+}
+
+.btnformission {
+  width: 9.6rem;
+  height: 2.8rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: solid black 1px;
+  background-color: #e6ff81;
+  color: #46572a;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btnformission:hover {
+  background-color: white;
+}
+
+.team {
+  width: 119rem;
+  height: 67rem;
+  background-color: #e6ff81;
+}
+.h1forteam {
+  font-size: 4.9rem;
+  color: #46572a;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+.p1forteam {
+  font-size: 1.2rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  color: #46572a;
+}
+.p2forteam {
+  font-size: 1.2rem;
+  width: 31.8rem;
+  height: 4, 75rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  color: #46572a;
+}
+.teamdivforpics {
+  display: flex;
+  justify-content: space-evenly;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.teampic {
+  width: 540px;
+}
+.divfororders {
+  width: 119rem;
+  height: 20rem;
+}
+
+.order-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 6px 14px;
+  border-radius: 999px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #2f6f2f;
+  background-color: #f3f3f3;
+  border: 1px solid #cfe6c8;
+
+  cursor: default;
+
+  width: 10rem;
+  height: 2rem;
+}
+.formobnav {
+  display: flex;
+  gap: 1rem;
+}
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #4caf50;
+  border-radius: 50%;
+}
+
+.divforonline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.divforonline p {
+  color: #46572a;
+}
+.divforonline h1 {
+  color: #46572a;
+  font-size: 3rem;
+}
+.btnforonline {
+  width: 10.75rem;
+  height: 2.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.meore {
+  border: solid black 1px;
+  width: 10.75rem;
+  height: 2.8rem;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+}
+.divfortwobtn {
+  display: flex;
+}
+.pforonline {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.pforonline p {
+  font-size: 1.1rem;
+  color: #46572a;
+}
+.pforonline p:hover {
+  text-decoration: underline;
+}
+.secforonline {
+  padding-left: 4rem;
+}
+.h1fordelights {
+  font-size: 2rem;
+  color: #46572a;
+}
+.hrforh1 {
+  width: 112rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.divforcards {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+.cardone {
+  width: 26rem;
+  height: 11.5rem;
+  border: solid rgba(0, 0, 0, 0.24) 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.cardone:hover {
+  transform: scale(1.1);
+}
+.cardone h1 {
+  font-size: 1rem;
+  color: #46572a;
+}
+.cardone p {
+  font-size: 0.9rem;
+  color: #46572a;
+}
+.cardtwo {
+  width: 26rem;
+  height: 11.5rem;
+  border: solid rgba(0, 0, 0, 0.24) 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.cardtwo h1 {
+  font-size: 1rem;
+  color: #46572a;
+}
+.cardtwo p {
+  font-size: 0.9rem;
+  color: #46572a;
+}
+.cardtwo:hover {
+  transform: scale(1.1);
+}
+.bread {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.divfortouch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-nav {
+  background-color: #fffdf6;
+  opacity: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  transition: transform 1s;
+  position: fixed;
+  z-index: 99;
+}
+.mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+#menuid {
+  display: none;
+}
+#menuid:checked ~ .mobile-nav {
+  opacity: 1;
+  transform: translateY(0);
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+}
+#menuid:checked ~ .heforget {
+  display: none;
+}
+.mobile-nav .user {
+  display: block;
+}
+.burger-btn {
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  z-index: 100;
+  width: 2.25rem;
+  height: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#menuid:checked ~ .burger-btn .burger-line-1 {
+  transform: rotate(45deg);
+}
+
+#menuid:checked ~ .burger-btn .burger-line-2 {
+  transform: translate(-100%);
+  opacity: 0;
+}
+
+#menuid:checked ~ .burger-btn .burger-line-3 {
+  transform: rotate(-45deg);
+}
+
+.burger-btn span {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #46572a;
+  transform-origin: left center;
+  transition: all 0.5s;
+}
+.mobile-nav {
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+@media (max-width: 1880px) {
+  .fresh {
+    font-size: 17px;
+  }
+
+  .team h1 {
+    padding: 0px;
+    width: 300px;
+    height: 134px;
+  }
+  .team p {
+    padding: 0px;
+    width: 290px;
+    padding-bottom: 20px;
+  }
+  .team .teamdivforpics {
+    width: auto;
+  }
+  .formenu hr {
+    width: auto;
+  }
+  .text-overlay {
+    top: 80%;
+    right: 60%;
+  }
+  .team {
+    width: 100%;
+  }
+  .teamdivforpics {
+    width: 800px;
+    height: auto;
+  }
+  .imagecont img {
+    width: 300px;
+    height: 400px;
+  }
+  .divfororders {
+    width: 1700px;
+  }
+  .hrforh1 {
+    width: 1300px;
+  }
+}
+@media (max-width: 1580px) {
+  .fresh {
+    font-size: 10px;
+  }
+  .formenu hr {
+    width: auto;
+  }
+  .divfororders {
+    width: auto;
+  }
+  .hrforh1 {
+    width: 1000px;
+  }
+  .team .teamdivforpics {
+    width: auto;
+  }
+  .imagecont img {
+    width: 200px;
+    height: 300px;
+  }
+  .blueandyellow {
+    width: 600px;
+    height: 700px;
+  }
+  .text-overlay {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1200px) {
+  .at {
+    font-size: 1rem;
+    width: 20rem;
+    height: 6.25rem;
+  }
+  .team .teamdivforpics {
+    width: auto;
+  }
+  .inputforgetin {
+    width: 23rem;
+    height: 38rem;
+  }
+  .heforget {
+    font-size: 3rem;
+  }
+  .inputforemail {
+    width: 17rem;
+  }
+  .inputname {
+    width: 10rem;
+  }
+  .buttonforget {
+    width: 20rem;
+  }
+  .line-textarea {
+    width: 17rem;
+  }
+  .egg {
+    width: 30rem;
+    height: 30rem;
+  }
+  .buttonforget {
+    width: 15rem;
+    height: 1rem;
+  }
+  .forgetin {
+    margin-top: 9.375rem;
+  }
+  .anim p {
+    font-size: 0.5rem;
+  }
+  .formenu hr {
+    width: auto;
+  }
+  .meditopia2 {
+    font-size: 60px;
+  }
+  .picforgetin img {
+    width: 500px;
+    height: auto;
+  }
+  .divfororders {
+    width: auto;
+  }
+  .hrforh1 {
+    width: 400px;
+  }
+  .divfortouch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1100px) {
+  .aboutstory {
+    font-size: 3.5rem;
+  }
+  .formenu hr {
+    width: auto;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formediterraneandelights {
+    font-size: 50px;
+  }
+  .meditopiawelcomes {
+    width: 300px;
+    font-size: 15px;
+  }
+  .blueandyellow {
+    width: 400px;
+    height: 500px;
+  }
+}
+@media (max-width: 1000px) {
+  .gapfordishes img {
+    width: 250px;
+    height: 200px;
+  }
+  .seconddivformission {
+    width: 300px;
+    height: 129px;
+    font-size: 16px;
+  }
+  .firstdivformission {
+    width: 300px;
+    height: 129px;
+    font-size: 16px;
+  }
+  .divformission {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .h1formission {
+    font-size: 40px;
+  }
+  .divfororders {
+    width: auto;
+  }
+  .hrforh1 {
+    width: 800px;
+  }
+  .dishes {
+    width: 700px;
+    height: 120px;
+  }
+}
+@media (max-width: 950px) {
+  .anim p {
+    display: none;
+  }
+  .anim svg {
+    display: none;
+  }
+  .gapfordishes img {
+    width: 250px;
+    height: 300px;
+  }
+  .gapfordishes {
+    width: 200px;
+    height: 400px;
+  }
+  .picforgetin img {
+    width: 300px;
+    height: 400px;
+  }
+  .hfordishes {
+    font-size: 20px;
+    width: 150px;
+  }
+  .pfordishes {
+    font-size: 15px;
+    width: 150px;
+  }
+  .second {
+    width: 240px;
+    height: 185px;
+    padding: 1rem;
+  }
+  .ourdishes {
+    font-size: 50px;
+  }
+  .formenu hr {
+    width: auto;
+  }
+  .team .teamdivforpics {
+    width: 840px;
+  }
+  .yet {
+    margin-right: 18rem;
+    width: 400px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 840px) {
+  .at {
+    font-size: 1rem;
+    width: 15rem;
+    height: 6.25rem;
+  }
+  .buttonforstory {
+    margin-top: 7rem;
+  }
+  .signature {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pfordishes {
+    order: 1;
+  }
+  .hfordishes {
+    order: 1;
+  }
+  .nav {
+    display: none;
+  }
+  .gapfordishes p {
+    margin-bottom: 30px;
+  }
+  .ourdishes {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hrforh1 {
+    width: 330px;
+  }
+  .team .teamdivforpics {
+    width: 800px;
+  }
+  .imagecont img {
+    width: 250px;
+    height: 250px;
+  }
+  .signature {
+    height: auto;
+  }
+}
+@media (max-width: 800px) {
+  .burger-btn {
+    display: flex;
+  }
+  .meditopia2 {
+    font-size: 60px;
+  }
+  .blueandyellow {
+    width: auto;
+  }
+  .formediterraneandelights {
+    font-size: 40px;
+  }
+  .discover {
+    flex-direction: column;
+  }
+  .teamdivforpics {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .team .teamdivforpics {
+    width: auto;
+  }
+  .user {
+    display: none;
+  }
+  .dd {
+    display: none;
+  }
+
+  .divfororders {
+    width: auto;
+  }
+  .formenu hr {
+    width: auto;
+  }
+  .h1forteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p1forteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p2forteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+  }
+  .flexforteam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 730px) {
+  .aboutstory {
+    font-size: 2rem;
+  }
+
+  .buttonforstory {
+    width: 130px;
+    height: 40px;
+  }
+  .forstory {
+    gap: 30px;
+  }
+  .picforgetin img {
+    width: 350px;
+    height: 400px;
+  }
+  .cardtwo {
+    width: 300px;
+    height: 170px;
+  }
+  .cardone {
+    width: 300px;
+    height: 170px;
+  }
+  .dishes {
+    flex-direction: column;
+    gap: 3px;
+    width: auto;
+    height: auto;
+  }
+  .tagine {
+    width: auto;
+    height: auto;
+  }
+  .lineformenu {
+    width: auto;
+  }
+  .divforcards {
+    flex-direction: column;
+  }
+  .anim p {
+    display: none;
+  }
+  .anim svg {
+    display: none;
+  }
+  .egg {
+    width: 280px;
+    height: 280px;
+  }
+
+  .forgetin {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .forhero h1 {
+    font-size: 60px;
+  }
+
+  .inputforgetin h1 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputforgetin {
+    gap: 30px;
+    margin-bottom: 80px;
+  }
+  .forgetin .inputforgetin {
+    width: 200px;
+    height: 200px;
+  }
+
+  .at {
+    font-size: 12px;
+    width: 150px;
+  }
+  .first {
+    padding: 2rem;
+  }
+
+  .buttonforstory a {
+    font-size: 12px;
+  }
+  .story {
+    flex-direction: column-reverse;
+  }
+  .at {
+    font-size: 15px;
+  }
+  .divfororders {
+    width: auto;
+  }
+  .formenu hr {
+    width: auto;
+  }
+  .formenu {
+    height: auto;
+    width: auto;
+  }
+  .forsighn input {
+    width: 400px;
+    height: 40px;
+  }
+  .yet {
+    width: auto;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .las input {
+    width: 400px;
+    height: 40px;
+  }
+}
