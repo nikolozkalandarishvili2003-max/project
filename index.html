@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/source/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./source/favicon.svg" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,13 +43,14 @@
                   ></path>
                 </g>
               </svg>
-              <p><a href="login.html"></a>Log In</p>
+              <p><a href="login.html">Log In</a></p>
             </div>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="menu.html">Menu</a></li>
             <li><a href="orders.html">Online Orders</a></li>
+            <li><a href="galery.html">Galery</a></li>
           </ul>
         </nav>
         <a class="aforfirst" href="index.html">
@@ -92,6 +93,7 @@
           <li><a href="contact.html">Contact</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="orders.html">Online Orders</a></li>
+          <li><a href="galery.html">Galery</a></li>
         </ul>
       </div>
       <div class="second">
@@ -489,7 +491,7 @@
           <div class="picforgetin">
             <img
               class="egg"
-              src="/source/88aac0_a276016d588246e4904ac6de8870f9cc~mv2.avif"
+              src="./source/88aac0_a276016d588246e4904ac6de8870f9cc~mv2.avif"
               alt="food"
             />
           </div>
@@ -501,7 +503,7 @@
             <div class="flexinput">
               <div>
                 <label for="firstname">first name*</label>
-                <input type="text" class="inputname" />
+                <input type="text" class="inputname" required />
               </div>
               <div>
                 <label for="lastname">last name*</label>
@@ -509,7 +511,7 @@
               </div>
             </div>
 
-            <label for="email" id="email">email*</label>
+            <label for="email" id="email" required>email*</label>
             <input type="email" required class="inputforemail" name="email" />
             <label for="message">Message</label>
             <textarea id="message" required class="line-textarea"></textarea>

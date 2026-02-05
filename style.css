@@ -820,8 +820,8 @@ html {
   display: block;
 }
 .burger-btn {
-  position: fixed;
-  top: 1rem;
+  position: absolute;
+  top: 1.5rem;
   right: 2rem;
   z-index: 100;
   width: 2.25rem;
@@ -854,6 +854,129 @@ html {
 .mobile-nav {
   padding: 1rem 2rem;
   text-decoration: none;
+}
+.chefforgal {
+  width: 30rem;
+  height: auto;
+  border-radius: 20px;
+}
+.contforgal {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 1px #46572a;
+}
+.pforgal {
+  width: 25rem;
+  height: auto;
+  color: #46572a;
+  font-size: 1.3rem;
+}
+.hforgal {
+  font-size: 3rem;
+  color: #46572a;
+}
+.hfor {
+  color: #46572a;
+  font-size: 4.5rem;
+  padding: 1rem;
+}
+.btnforgal {
+  padding: 0.7rem;
+}
+.divforpad {
+  padding: 1rem;
+}
+.salad {
+  width: 57.3rem;
+  height: 23rem;
+}
+.flexforgal {
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px #46572a;
+  border-radius: 20px;
+}
+.gapforp {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #46572a;
+  justify-content: center;
+}
+.gapforp p {
+  font-size: 1.2rem;
+  color: #46572a;
+}
+.pforsize {
+  width: 39rem;
+  height: auto;
+}
+.divforval {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.divforval h1 {
+  font-size: 4.5rem;
+  color: #46572a;
+}
+.divforval {
+  font-size: 1.2rem;
+  color: #46572a;
+  padding: 5rem;
+}
+.wrapfor {
+  font-size: 1.2rem;
+  color: #46572a;
+  width: 60rem;
+}
+.svgforgal {
+  width: 5rem;
+  height: 5rem;
+}
+.child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #46572a;
+  gap: 3.5rem;
+  border: #46572a 1px solid;
+  border-radius: 10px;
+  transition: 0.5s;
+
+  cursor: pointer;
+}
+.child:hover {
+  transform: scale(1.2);
+  background-color: rgb(24, 22, 22);
+}
+.child p {
+  font-size: 1.2rem;
+  width: 43rem;
+  height: auto;
+}
+.contforval {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5rem;
+}
+.picforcar {
+  width: 100%;
+  height: 50rem;
+}
+.k2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divforchef {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1880px) {
@@ -903,6 +1026,9 @@ html {
   .fresh {
     font-size: 10px;
   }
+  .salad {
+    width: 30rem;
+  }
   .formenu hr {
     width: auto;
   }
@@ -925,6 +1051,20 @@ html {
   }
   .text-overlay {
     font-size: 13px;
+  }
+  .pforsize {
+    width: auto;
+  }
+  .child {
+    width: 30rem;
+    height: 30rem;
+  }
+  .child p {
+    width: auto;
+  }
+  .picforcar {
+    width: auto;
+    height: auto;
   }
 }
 @media (max-width: 1200px) {
@@ -1015,11 +1155,35 @@ html {
     width: 400px;
     height: 500px;
   }
+  .nav {
+    flex-wrap: nowrap;
+  }
 }
 @media (max-width: 1000px) {
   .gapfordishes img {
     width: 250px;
     height: 200px;
+  }
+  .chefforgal {
+    width: 300px;
+    height: 400px;
+  }
+  .wrapfor {
+    width: auto;
+  }
+  .second {
+    padding: 2rem;
+  }
+  .contforval {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pforgal {
+    font-size: 16px;
+  }
+  .contforgal {
+    flex-direction: column;
   }
   .seconddivformission {
     width: 300px;
@@ -1051,6 +1215,9 @@ html {
 }
 @media (max-width: 950px) {
   .anim p {
+    display: none;
+  }
+  .nav {
     display: none;
   }
   .anim svg {
@@ -1117,9 +1284,7 @@ html {
   .hfordishes {
     order: 1;
   }
-  .nav {
-    display: none;
-  }
+
   .gapfordishes p {
     margin-bottom: 30px;
   }
@@ -1147,6 +1312,7 @@ html {
   .burger-btn {
     display: flex;
   }
+
   .meditopia2 {
     font-size: 60px;
   }
@@ -1202,10 +1368,31 @@ html {
     justify-content: center;
     align-items: center;
   }
+  .hfor {
+    font-size: 30px;
+  }
+  .flexforgal {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .salad {
+    width: 20rem;
+    height: 16rem;
+  }
 }
 @media (max-width: 730px) {
   .aboutstory {
     font-size: 2rem;
+  }
+  .gapforp h1 {
+    width: auto;
+  }
+  .forstory {
+    width: 100%;
+  }
+  .picture {
+    width: 100%;
   }
 
   .buttonforstory {
@@ -1213,7 +1400,10 @@ html {
     height: 40px;
   }
   .forstory {
-    gap: 30px;
+    gap: 10px;
+  }
+  .buttonforstory {
+    margin-top: 1rem;
   }
   .picforgetin img {
     width: 350px;
@@ -1279,7 +1469,7 @@ html {
 
   .at {
     font-size: 12px;
-    width: 150px;
+    width: 100%;
   }
   .first {
     padding: 2rem;
@@ -1317,5 +1507,9 @@ html {
   .las input {
     width: 400px;
     height: 40px;
+  }
+  .child {
+    width: 25rem;
+    height: 25rem;
   }
 }
